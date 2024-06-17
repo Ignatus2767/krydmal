@@ -24,19 +24,13 @@
 .AboutUs2 {
   width: 30%;           
   height: 454px;         
-  background-size: cover;
-  background-position: center; 
-  
   border-radius: 2px;
   border-color: black;
-  
-  
   border-style: solid;
   border-radius: 14px;
   border-color: rgb(0, 0, 0);
   margin-right: 27px;
   margin-bottom: 12px;
-  background-color: antiquewhite;
 }
 
 .AboutUs::before {
