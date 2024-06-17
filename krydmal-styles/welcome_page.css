@@ -1,11 +1,10 @@
 .wellcom {
-  height: 450px;
+  height: 400px;
   width: 100%;
   position: relative;
   overflow: hidden;
-  margin-right: -20PX;
-  margin-left: -10px;
-  margin-bottom: -24px;
+  margin: 0px;
+  background-color: brown;
 
 }
 
