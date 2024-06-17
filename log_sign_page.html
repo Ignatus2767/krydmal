@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>krydmal.login/signup.com</title>
+
+    <link rel="stylesheet" href="krydmal-styles/logsign.css">
+  </head>
+  <body>
+    <div class="content-container">
+      <div class="top-bar">
+        <button type="button" id="backButton" class="close-button mdc-icon-button material-icons ltr">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="m12 19.875-7.85-7.85L12 4.175l1.2 1.2L7.375 11.2H19.85v1.65H7.375l5.825 5.825Z"></path></svg>      </button>
+      </div>  
+      <div class="header">
+          <img class="logo" alt="jumia logo" src="pics/logo.png" id="myjumia-top-logo">
+      </div>
+      <div class="progress-container">
+        <div role="progressbar" class="mdc-linear-progress mdc-linear-progress--indeterminate mdc-linear-progress--closed mdc-linear-progress--animation-ready" aria-label="Example Progress Bar" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0" style="--mdc-linear-progress-primary-half: 401.622816px; --mdc-linear-progress-primary-half-neg: -401.622816px; --mdc-linear-progress-primary-full: 962.9330736000001px; --mdc-linear-progress-primary-full-neg: -962.9330736000001px; --mdc-linear-progress-secondary-quarter: 180.72918239999998px; --mdc-linear-progress-secondary-quarter-neg: -180.72918239999998px; --mdc-linear-progress-secondary-half: 405.053592px; --mdc-linear-progress-secondary-half-neg: -405.053592px; --mdc-linear-progress-secondary-full: 769.3333536px; --mdc-linear-progress-secondary-full-neg: -769.3333536px;">
+          <div class="mdc-linear-progress__buffer">
+              <div class="mdc-linear-progress__buffer-bar"></div>
+              <div class="mdc-linear-progress__buffer-dots"></div>
+            </div>
+            <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+              <span class="mdc-linear-progress__bar-inner"></span>
+            </div>
+            <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+              <span class="mdc-linear-progress__bar-inner"></span>
+            </div>
+          </div>
+      </div>
+      <div class="card">
+        <div class="overlay" hidden=""></div>
+        <form id="identification-form" action="/interaction/CIhGJn5H4WDeyQCz0VcUQ/en-gh/identification" method="POST">
+          <input type="hidden" id="uid" name="uid" value="CIhGJn5H4WDeyQCz0VcUQ">
+          <input type="hidden" id="lang" name="lang" value="en-gh">
+          <input type="hidden" name="_csrf" value="69qISsLa-Tt25pIK0-8tgJpCeeXFNjnupGkg">
+          <div class="ctx-identification flow-layout" data-context="identification">
+            <div class="center">
+              <h2>Welcome to Jumia</h2>
+              <p class="subheading">Type your e-mail or phone number to log in or create a Jumia account.</p>
+            </div>
+            <div class="fields">
+              <div>
+                <div id="phoneCountryCodeSelect" dir="ltr" class="select-field mdc-select mdc-select--outlined hidden prefix-component">
+                  <input id="input_phoneCountryCodeSelect" type="hidden" required="" name="" value="+233 GH">
+                  <div class="mdc-select__anchor" aria-labelledby="outlined-select-label" tabindex="0" aria-disabled="false">
+                    <span class="mdc-notched-outline hidden mdc-notched-outline--upgraded mdc-notched-outline--notched">
+                      <span class="mdc-notched-outline__leading"></span>
+                      <span class="mdc-notched-outline__notch" style="width: 0px;">
+                        <span id="outlined-select-label" class="mdc-floating-label mdc-floating-label--float-above" style=""></span>
+                      </span>
+                      <span class="mdc-notched-outline__trailing"></span>
+                    </span>
+                    <span class="mdc-select__selected-text-container">
+                      <span id="demo-selected-text" class="mdc-select__selected-text">Ghana +233</span>
+                    </span>
+                    <span class="mdc-select__dropdown-icon hidden">
+                      <svg class="mdc-select__dropdown-icon-graphic" viewBox="7 10 10 5" focusable="false">
+                        <polygon class="mdc-select__dropdown-icon-inactive" stroke="none" fill-rule="evenodd" points="7 10 12 15 17 10">
+                        </polygon>
+                        <polygon class="mdc-select__dropdown-icon-active" stroke="none" fill-rule="evenodd" points="7 15 12 10 17 15">
+                        </polygon>
+                      </svg>
+                    </span>
+                  </div>
+                
+                  <!-- Other elements from the select remain. -->
+                  <div class="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth">
+                    <ul class="mdc-list mdc-deprecated-list" role="listbox" aria-label="">
+                      <li class="mdc-deprecated-list-item " data-value="+213 DZ" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Algeria +213
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+61 AU" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Australia +61
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+43 AT" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Austria +43
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+973 BH" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Bahrain +973
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+32 BE" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Belgium +32
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+267 BW" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Botswana +267
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+237 CM" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Cameroon +237
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+1 CA" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Canada +1
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+86 CN" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          China +86
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+225 CI" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Côte d'Ivoire +225
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+45 DK" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Denmark +45
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+20 EG" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Egypt +20
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+358 FI" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Finland +358
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+33 FR" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          France +33
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+49 DE" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Germany +49
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item mdc-deprecated-list-item--selected" data-value="+233 GH" role="option" tabindex="0" aria-selected="true">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Ghana +233
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+30 GR" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Greece +30
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+852 HK" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Hong Kong +852
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+36 HU" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Hungary +36
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+91 IN" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          India +91
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+62 ID" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Indonesia +62
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+353 IE" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Ireland +353
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+972 IL" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Israel +972
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+39 IT" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Italy +39
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+81 JP" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Japan +81
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+254 KE" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Kenya +254
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+965 KW" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Kuwait +965
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+961 LB" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Lebanon +961
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+352 LU" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Luxembourg +352
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+60 MY" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Malaysia +60
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+212 MA" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Morocco +212
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+31 NL" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Netherlands +31
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+227 NE" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Niger +227
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+234 NG" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Nigeria +234
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+47 NO" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Norway +47
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+968 OM" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Oman +968
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+351 PT" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Portugal +351
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+974 QA" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Qatar +974
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+250 RW" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Rwanda +250
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+966 SA" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Saudi Arabia +966
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+221 SN" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Senegal +221
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+232 SL" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Sierra Leone +232
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+65 SG" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Singapore +65
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+252 SO" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Somalia +252
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+27 ZA" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          South Africa +27
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+82 KR" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          South Korea +82
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+34 ES" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Spain +34
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+46 SE" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Sweden +46
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+41 CH" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Switzerland +41
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+255 TZ" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Tanzania +255
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+216 TN" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Tunisia +216
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+90 TR" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Turkey +90
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+688 TV" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Tuvalu +688
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+971 AE" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          UAE +971
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+256 UG" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          Uganda +256
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+1 US" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          United States +1
+                        </span>
+                      </li>
+                      <li class="mdc-deprecated-list-item " data-value="+44 UK" role="option" tabindex="-1">
+                        <span class="mdc-deprecated-list-item__ripple"></span>
+                        <span class="mdc-deprecated-list-item__text">
+                          United Kingdom +44
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>					<div class="identifier-field-container ">
+                  <label class="mdc-text-field--ltr-text mdc-text-field mdc-text-field--outlined mdc-text-field--with-trailing-icon text-field mdc-text-field--label-floating">
+                        <span class="mdc-text-field__affix mdc-text-field__affix--prefix identifierValuePrefix hidden">+233 GH</span>
+                      <span class="mdc-notched-outline mdc-notched-outline--upgraded mdc-notched-outline--notched">
+                          <span class="mdc-notched-outline__leading"></span>
+                          <span class="mdc-notched-outline__notch" style="width: 145.25px;">
+                          <span class="mdc-floating-label mdc-floating-label--required mdc-floating-label--float-above" id="label_identifierValue" style="">Email or Mobile Number</span>
+                          </span>
+                          <span class="mdc-notched-outline__trailing"></span>
+                      </span>
+                      <input id="input_identifierValue" name="identifierValue" class="mdc-text-field__input" type="text" aria-labelledby="Email or Mobile Number" aria-controls="Email or Mobile Number" required="" autocomplete="username" dir="ltr">
+                  </label>
+                  <div class="mdc-text-field-helper-line">
+                    <div class="mdc-text-field-helper-text mdc-text-field-helper-text--validation-msg" id="validation_identifierValue" aria-hidden="true">
+                      <span id="invalid-text-field-error-message" class="">Either the email or the phone number entered is not valid</span>
+                      <span id="invalid-min-length-text-field-error-message" class="hidden"></span>
+                      <span id="invalid-max-length-text-field-error-message" class="hidden"></span>
+                    </div>
+                  </div>					</div>
+              </div>
+              <input type="hidden" name="identifierType" value="email">
+              <input type="hidden" name="phoneCountryCode" value="">
+              <input type="hidden" name="hiddenIdentifier" value="kry.d.2767@gmail.com">
+              <input type="hidden" id="prefilledPhonePrefixText" value="+233 GH">
+              <input type="hidden" id="prefilledIdentifier" value="">
+              <input type="hidden" id="localeCountryIsoCode" value="GH">
+              <input type="hidden" id="localePhoneCountryCode" value="+233">
+              <input type="hidden" id="invalidIdentifierErrorMessage" value="Either the email or the phone number entered is not valid">
+              <input type="hidden" id="validationErrorMessage" value="">
+              <input type="hidden" id="hostname" value="my.jumia.com.gh">
+              <input type="hidden" name="authResponse" value="">
+            </div>
+            <div class="actions">
+              <div class="captcha-container">
+                <div class="cf-turnstile" data-sitekey="" data-size="normal" data-action="identification" data-callback="onTurnstileCaptchaSuccess" data-before-interactive-callback="onTurnstileBeforeChallenge" data-after-interactive-callback="onTurnstileAfterChallenge" data-error-callback="onTurnstileCaptchaError" data-expired-callback="onTurnstileCaptchaExpired" data-theme="light" data-appearance="interaction-only">
+                </div>
+              
+                <input type="hidden" name="captcha-error-message">
+                <input type="hidden" name="captcha-expired-message">
+                <script>
+                  function getTurnstileCaptchaErrorMessage(error) {
+                    if (!error) {
+                      return '';
+                    }
+                    const stack = (error.stack) ? `Stack: ${JSON.stringify(error.stack)}` : '';
+                    const message = (error.message) ? `Message: ${error.message}` : '';
+                    return `${message} ${stack}`;
+                  }
+                  function onTurnstileCaptchaSuccess(token) {
+                    window.dispatchEvent(new CustomEvent('captcha-success', { detail: token }));
+                    console.info('Turnstile captcha success');
+                  }
+                  function onTurnstileBeforeChallenge() {
+                    window.dispatchEvent(new CustomEvent('captcha-challenge-required'));
+                    console.info('Turnstile captcha challenge required');
+                  }
+                  function onTurnstileAfterChallenge(token) {
+                    window.dispatchEvent(new CustomEvent('captcha-challenge-submited'));
+                    console.info('Turnstile captcha challenge submited');
+                  }
+                  function onTurnstileCaptchaError(error) {
+                    window.dispatchEvent(new CustomEvent('captcha-error', { detail: error }));
+                    console.error('Turnstile captcha error', error);
+                    const recaptchaInfo = document.querySelector('[name="captcha-error-message"]');
+                    recaptchaInfo.value = getTurnstileCaptchaErrorMessage(error);
+                  }
+                  function onTurnstileCaptchaExpired() {
+                    window.dispatchEvent(new CustomEvent('captcha-expired'));
+                    console.error('Turnstile captcha expired.');
+                    const recaptchaInfo = document.querySelector('[name="captcha-expired-message"]');
+                    recaptchaInfo.value = 'Recaptcha is expired';
+                  }
+                </script>
+              </div>				<div class="mdc-touch-target-wrapper">
+                  <button type="submit" class="mdc-button mdc-button--touch mdc-button--raised access-btn">
+                      <span class="mdc-button__ripple"></span>
+                      <span class="mdc-button__label">Continue</span>
+                      <span class="mdc-button__touch"></span>
+                  </button>
+              </div>				<div class="disclaimer">
+                <label>By continuing you agree to Jumia’s</label><br>
+                <a href="/interaction/CIhGJn5H4WDeyQCz0VcUQ/en-gh/terms-and-conditions" target="_blank">Terms and Conditions</a>
+              </div>
+            </div>
+      
+      
+            <div class="bottom-container">
+              <div id="social-logins" class="actions">
+                <div class="mdc-touch-target-wrapper">
+        <button id="facebook" onclick="window.location='https://www.facebook.com/v19.0/dialog/oauth?client_id=312873397548795&amp;redirect_uri=https://my.jumia.com.gh/facebook/redirect&amp;state=CIhGJn5H4WDeyQCz0VcUQ&amp;scope=email,public_profile'" type="button" class="mdc-button mdc-button--touch mdc-button--raised facebook-blue">
+          <svg width="21" height="20" viewBox="0 0 21 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.674 0H2.753C1.233 0 0 1.207 0 2.695v14.61C0 18.793 1.232 20 2.753 20h7.359l.012-7.147H8.228a.443.443 0 0 1-.447-.436l-.01-2.304c0-.243.2-.44.448-.44h1.893V7.447c0-2.583 1.611-3.99 3.965-3.99h1.931c.247 0 .448.196.448.438v1.943c0 .242-.2.438-.448.438h-1.185c-1.28 0-1.528.596-1.528 1.47v1.927h2.813c.268 0 .476.23.444.49l-.279 2.304a.444.444 0 0 1-.444.386h-2.521L13.295 20h4.38c1.52 0 2.752-1.207 2.752-2.695V2.695C20.427 1.207 19.194 0 17.674 0z" fill="#FFF" fill-rule="nonzero"></path>
+          </svg>
+          <span class="mdc-button__ripple"></span>
+          <span class="mdc-button__label">Log in with Facebook</span>
+          <span class="mdc-button__touch"></span>
+        </button>
+      </div>
+                
+              </div>
+            </div>
+          </div>
+      
+      
+          <div class="center">
+            <label class="mdc-text-field--invalid"></label>
+            <div class="mdc-text-field-helper-line">
+              <div class="mdc-text-field-helper-text mdc-text-field-helper-text--validation-msg stretch-and-align">
+                <span id="error-message-element"></span>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      
+      <div class="center">
+        <div id="footer-text" class="footer-text">For further support, you may visit the Help Center or contact our customer service team.</div>
+      </div>
+  
+      <div class="jumia-logo">
+        <img src="/pictures/myjumia/myjumia-bottom-logo.png" alt="bottomLogo" id="myjumia-bottom-logo">
+      </div>
+    </div>
+  </body>
+</html>  
+
