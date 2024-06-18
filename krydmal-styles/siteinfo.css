@@ -3,6 +3,19 @@
   width: 100%;
   background-color: rgb(5, 5, 71);
 }
+
+.Courses_h3{
+  box-sizing: border-box;
+  display: flex;
+  margin-right: 0px;
+  margin-left: 0px;
+  pad: 0px;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(87, 127, 0);
+  justify-content: center;
+  align-items: center;
+}
 .AboutUs {
   width: 47%;           
   height: 454px;         
@@ -24,13 +37,17 @@
 .AboutUs2 {
   width: 30%;           
   height: 454px;         
+   
   border-radius: 2px;
   border-color: black;
+ 
+  
   border-style: solid;
   border-radius: 14px;
   border-color: rgb(0, 0, 0);
   margin-right: 27px;
   margin-bottom: 12px;
+  
 }
 
 .AboutUs::before {
@@ -93,24 +110,40 @@
 
 }
 @media (max-width: 500px) {
- 
+  .grid_courses{
+    background-color: rgba(87, 127, 0, 0.158);;
+  }
+
+
   .AboutUs2 {
     background-position: top; /* Adjust background position for smaller screens */
-    width: 98%;
-    height: 290px;
+    width: 99%;
+    margin-right: 0px;
+    
   }
   .AboutUs {
     background-position: top; /* Adjust background position for smaller screens */
-    width: 94%;
-    height: 334px;
-    margin-left: 3%;
+    width: 99%;
+    height: 344px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
   }
   .image_div9{
     height: 130px;
     padding-top: 2px;
   }
 
+  .row1_siteInfo{
+    align-content: stretch;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+   margin: 12px;
+   margin-top: 0px;
+   
+  }
+
 }
-
-
 
