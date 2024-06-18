@@ -2102,7 +2102,7 @@
     -webkit-transition-delay: 0ms;
     border: 1px solid #577F00;
     background-color: #577F00;
-    color: red;
+    color: #fff;
     font-weight: 700;
     line-height: 1.2;
     position: relative;
@@ -2114,7 +2114,7 @@
     font-size: 1.25rem;
     display: inline-block;
     padding: 10px 16px;
-    min-width: 310px;
+    min-width: 110px;
   }
 
 }
