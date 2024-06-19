@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="krydmal-styles/siteinfo.css">
   <link rel="stylesheet" href="krydmal-styles/videoTry.css">
   <link rel="stylesheet" href="krydmal-styles/sinup.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="body" style="background-image: url('back07.jpg');">
@@ -25,7 +26,7 @@
       <div class="left-section">
         
         <img
-        class="menu-icon"  
+        class="menu-icon" id="menuIcon"  
         src="icons/menu.svg">
         <img 
         class="logo-icon"
@@ -62,6 +63,15 @@
       </div>
   </div>
   </header>
+  <nav id="navMenu" class="hidden">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#vision">Our Vision</a></li>
+        <li><a href="#subscribe">Subscribe</a></li>
+    </ul>
+  </nav>
   <main class="main">
 
     <div class="TopNav" style="padding: 0px;">
@@ -94,6 +104,8 @@
     
     </div>
 
+    
+
     <div class="wellcom">
       
       <img class="image
@@ -123,8 +135,8 @@
         Get Started -->
       </p>
     </div>
-
-    <div class="courses_container" >
+    <section id="courses">
+      <div class="courses_container" >
       <div class="image_div0">
         <div class="image_div1" >
 
@@ -424,58 +436,62 @@
 
         </div>
       </div>
-    </div>
+      </div>
+    </section>
 
-    <div class="signup-gmore">
-      <div class="signup-gmore-block-wrapper" id="yui_3_18_1_1_1718720177311_37">
-      <div class="signup-gmore-block" id="yui_3_18_1_1_1718720177311_36">
-        <h2 class="signup-gmore-title">Create an account to get more</h2>
-        <div class="signup-gmore-content" id="yui_3_18_1_1_1718720177311_35">
-          <ul class="list-benefit" id="yui_3_18_1_1_1718720177311_48">
-
-            <li class="left">
-              <div class="benefit">
-                <span class="icon-wrapper"><i class="icon icon-tick"></i></span>
-                <h3 class="h31" style="margin-bottom: 5px;">Track your progress</h3>
-                <p1 class="p11" style="margin-top: 5px;">Review and track your learning through your OpenLearn Profile.</p1>
-              </div>
-            </li>
-
-            <li class="right">
-              <div class="benefit">
-                <i class="icon-certificate_black">
+    <section id="subscribe" style="margin-top: 12px;">
+      <div class="signup-gmore">
+        <div class="signup-gmore-block-wrapper" id="yui_3_18_1_1_1718720177311_37">
+        <div class="signup-gmore-block" id="yui_3_18_1_1_1718720177311_36">
+          <h2 class="signup-gmore-title">Create an account to get more</h2>
+          <div class="signup-gmore-content" id="yui_3_18_1_1_1718720177311_35">
+            <ul class="list-benefit" id="yui_3_18_1_1_1718720177311_48">
+  
+              <li class="left">
+                <div class="benefit">
+                  <span class="icon-wrapper"><i class="icon icon-tick"></i></span>
+                  <h3 class="h31" style="margin-bottom: 5px;">Track your progress</h3>
+                  <p1 class="p11" style="margin-top: 5px;">Review and track your learning through your OpenLearn Profile.</p1>
+                </div>
+              </li>
+  
+              <li class="right">
+                <div class="benefit">
+                  <i class="icon-certificate_black">
+                    <span class="icon-wrapper" id="yui_3_18_1_1_1718720177311_45"><i class="icon icon-finger_pointer" id="yui_3_18_1_1_1718720177311_44"></i></span>
+                  </i>
+                  <h3 class="h31" style="margin-bottom: 5px;">Statement of Participation</h3>
+                  <p1 class="p11">On completion of a course you will earn a Statement of Participation.</p1>
+                </div>
+              </li>
+  
+              <li class="left" id="yui_3_18_1_1_1718720177311_47">
+                <div class="benefit" id="yui_3_18_1_1_1718720177311_46">
                   <span class="icon-wrapper" id="yui_3_18_1_1_1718720177311_45"><i class="icon icon-finger_pointer" id="yui_3_18_1_1_1718720177311_44"></i></span>
-                </i>
-                <h3 class="h31" style="margin-bottom: 5px;">Statement of Participation</h3>
-                <p1 class="p11">On completion of a course you will earn a Statement of Participation.</p1>
-              </div>
-            </li>
-
-            <li class="left" id="yui_3_18_1_1_1718720177311_47">
-              <div class="benefit" id="yui_3_18_1_1_1718720177311_46">
-                <span class="icon-wrapper" id="yui_3_18_1_1_1718720177311_45"><i class="icon icon-finger_pointer" id="yui_3_18_1_1_1718720177311_44"></i></span>
-                <h3 class="h31" style="margin-bottom: 5px;">Access all course activities</h3>
-                <p1 class="p11">Take course quizzes and access all learning.</p1>
-              </div>
-            </li>
-
-            <li class="right">
-              <div class="benefit"><span class="icon-wrapper"><i class="icon icon-star_sharp"></i></span>
-                <h3 class="h31" style="margin-bottom: 5px;">Review the course</h3>
-                <p1 class="p11">When you have finished a course leave a review and tell others what you think.</p1>
-              </div>
-            </li>
-
-          </ul>
-          <div class="action-group">
-            <a href="https://www.open.edu/openlearn/local/ousaml/loginsaml.php?url=https%3A%2F%2Fwww.open.edu%2Fopenlearn%2Flanguages%2Fgetting-started-german-1%2Fcontent-section-overview%3Factive-tab%3Ddescription-tab" class="buttom" title="Create account / Sign in">Create account / Sign in</a>
+                  <h3 class="h31" style="margin-bottom: 5px;">Access all course activities</h3>
+                  <p1 class="p11">Take course quizzes and access all learning.</p1>
+                </div>
+              </li>
+  
+              <li class="right">
+                <div class="benefit"><span class="icon-wrapper"><i class="icon icon-star_sharp"></i></span>
+                  <h3 class="h31" style="margin-bottom: 5px;">Review the course</h3>
+                  <p1 class="p11">When you have finished a course leave a review and tell others what you think.</p1>
+                </div>
+              </li>
+  
+            </ul>
+            <div class="action-group">
+              <a href="https://www.open.edu/openlearn/local/ousaml/loginsaml.php?url=https%3A%2F%2Fwww.open.edu%2Fopenlearn%2Flanguages%2Fgetting-started-german-1%2Fcontent-section-overview%3Factive-tab%3Ddescription-tab" class="buttom" title="Create account / Sign in">Create account / Sign in</a>
+            </div>
           </div>
         </div>
+        </div>
       </div>
-      </div>
-    </div>
-
-    <div class="grid_courses2">
+    </section>
+    
+    <section id="vision">
+      <div class="grid_courses2">
       <div class="row1_siteInfo">
   
         <div class="AboutUs2" style="background-image: url('back02.jpg');">
@@ -523,12 +539,15 @@
         
         
       </div>
-    </div>
+      </div>
+    </section>
+    
+    <section id="about">
+      <div class="site_info">
 
-    <div class="site_info">
-
-    </div>
-
+      </div>
+    </section>
   </main>
+  <script src="scripts.js"></script>
 </body>
 </html>
