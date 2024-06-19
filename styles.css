@@ -122,7 +122,7 @@ nav li a {
     top: 50px; /* Adjust based on header height */
     left: 0;
     right: 0;
-    width: 50%;
+    width: 100%;
     z-index: 99; /* Make sure it is above other elements */
      /* Hidden by default */
   }
