@@ -114,3 +114,12 @@ nav li a {
   text-decoration: none;
   cursor: pointer;
 }
+@media (max-width: 500px) {
+ 
+  .nav{
+    top: 50px;
+    background-color: #a55f26;
+  }
+
+}
+
