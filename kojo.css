@@ -104,13 +104,22 @@ body {
 /* Media Query for Small Screens */
 @media (max-width: 480px) {
   .switcher {
-      flex-direction: column;
-      gap: 5px;
+    
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
   }
 
   .switcher button {
-      width: 100%;
-      font-size: 14px;
+    
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    
   }
 
   .form-container {
