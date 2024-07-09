@@ -116,7 +116,7 @@ nav li a {
 }
 @media (max-width: 500px) {
  
-  .nav{
+  nav{
     background-color: #e69334;
     position: fixed; /* Ensure it stays in the same place */
     top: 50px; /* Adjust based on header height */
