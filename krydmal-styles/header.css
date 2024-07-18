@@ -27,9 +27,29 @@
  height: 30px;
  width: 30px;
 }
-.cart-logo{
- height: 30px;
- width: 30px;
+.cart-logo {
+  height: 33px;
+  width: 30px;
+}
+.cart-link{
+  font-family: Roboto, Arial;
+  padding: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.cart-quantity{
+  
+  cursor: pointer;
+  color: rgb(30, 255, 0);
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  width: 26px;
+  text-align: center;
 }
 .notification{
  height: 30px;
