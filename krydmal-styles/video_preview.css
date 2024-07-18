@@ -75,12 +75,17 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: 400;
-  line-height: 18.2px;
   text-align: left;
   text-size-adjust: auto;
   color: #000;
   overflow-wrap: normal;
-  cursor: pointer;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  overflow: hidden; /* Hide the overflow */
+  text-overflow: ellipsis; /* Add ellipsis at the end */
+  line-height: 1.5; /* Adjust the line height */
+  max-height: calc(3 * 1.5em);
 
 }
 
@@ -144,6 +149,22 @@
 .time_disc{
   font-size: 20px;
   
+}
+
+.time_disc1{
+  font-size: 16px;
+  color: red;
+  font-weight: bolder;
+  background-color: azure;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  height: 20px;
+  width: auto;
+  padding-right: 6px;
+  padding-right: 6px;
+  border-radius: 4px;
+
 }
 
 .icon-clock{
