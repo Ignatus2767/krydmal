@@ -101,6 +101,8 @@
   border-bottom-style: solid;
   border-bottom-width: 2px;
   overflow-wrap: normal;
+  text-decoration: none;
+  text-decoration-style: none;
   
 }
 

@@ -65,6 +65,17 @@ nav li a {
   display: none;
 }
 
+.li1 a{
+  color: #577f00;;
+  text-decoration: none;
+  margin: 12px;
+}
+
+.li1 a:hover{
+  text-decoration: underline;
+  size: 14px;
+}
+
 #searchForm {
   display: flex;
   align-items: center;
